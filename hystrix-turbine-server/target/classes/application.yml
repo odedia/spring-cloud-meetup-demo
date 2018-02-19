@@ -1,0 +1,13 @@
+security.basic.enabled: false
+turbine:
+  instanceUrlSuffix: /hystrix.stream
+  appConfig: beer-client,beer-service,beer-filler,bottle-maker,cap-handler,label-maker,pricing-catalog,quality-verifier,shipment-service
+  clusterNameExpression: "'default'"
+
+server:
+  port: 10000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka

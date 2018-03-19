@@ -9,6 +9,9 @@ It includes, among otherse:
 - Spring Data JPA
 - Spring Cloud Eureka
 - Spring Cloud Hystrix
-- Spring Cloud Hystrix Dashboard
-- Spring Cloud Stream
+- Spring Cloud Turbine Dashboard
+- Spring Cloud Stream Rabbit Binder
+- Spring Cloud Stream Kafka Binder
 - Spring Boot Actuator
+- Spring Cloud Sleuth and Zipkin
+
